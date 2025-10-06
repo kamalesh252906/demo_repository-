@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="view port" content="width=device-width,initial-scale=1.0" />
+        <title>All recipes</title>
+        <body>
+            <h1>All Our Recipes</h1>
+            <h2>Classic Pancake Recipe</h2>
+            <video controls>
+                <source src="https://archive.org/download/BigBuckBunny_328/BigBuckBunny_512kb.mp4" type="video/mp4" />
+            </video>
+            <h3>Instructions</h3>
+            <ol>
+                <li><p>Mix flour, sugar, and baking powder in a bowl.</p></li>
+                <li><p>In another bowl, whisk the egg, milk, and melted butter.</p></li>
+                <li><p>Pour the wet ingredients into the dry and whisk until just combined.</p></li>
+                <li><p>Heat a lightly oiled griddle and pour batter to form pancakes.</p></li>
+                <li><p>Cook until bubbles appear, then flip and cook until golden brown.</p></li>
+            </ol>
+            <h2>Submit Your Recipe</h2>
+            <label for="Your Name:">Your Name:</label><br />
+            <input
+            id="Your Name:"
+            type="text"
+            name="Your Name:" /><br /><br />
+            <label for="Your Email:">Your Email:</label><br />
+            <input
+            id="Your Email:"
+            type="email"
+            name="Your Email:" /><br /><br />
+            <label for="Recipe Type:">Recipe Type:</label><br />
+            <input
+            id="Breakfast"
+            type="checkbox"
+            name="Breakfast" />
+            <label for="Breakfast">Breakfast</label>
+            <input
+            id="Lunch"
+            type="checkbox"
+            name="Lunch" />
+            <label for="Lunch">Lunch</label>
+            <input
+            id="Dinner"
+            type="checkbox"
+            name="Dinner" />
+            <label for="Dinner">Dinner</label>
+            <input
+            id="Dessert"
+            type="checkbox"
+            name="Dessert" />
+            <label for="Dessert">Dessert</label><br /><br />
+            <label for="Cuisine">Cuisine:</label><br />
+            <select>
+                <option value="--Select cuisine">--Select Cuisine--</option>
+                <option value="Italian">Italian</option>
+                <option value="India">India</option>
+                <option value="Chinese">Chinese</option>
+                <option value="Mexican">Mexican</option>
+                <option value="French">French</option>
+                <option value="America">American</option>
+                <option value="other">other</option>
+            </select><br /><br />
+            <label>Recipe Instructions:</label><br />
+            <textarea id="Recipe Instructions"></textarea><br />
+            <button type="button">Submit Recipe</button>
+            <a href="/Test.html">Back to Home</a>
+        </body>
